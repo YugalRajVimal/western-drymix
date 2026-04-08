@@ -1,0 +1,1058 @@
+{
+    "products": [
+      {
+        "categoryId": "CAT_001",
+        "categoryName": "Tile Adhesives",
+        "categoryDescription": "Leading tile adhesive products for various tile types and applications",
+        "subProducts": [
+          {
+            "productId": "TA_335",
+            "productName": "TA-335 Kerovit 20kg Tile Adhesive",
+            "brand": "Kerovit",
+            "packaging": {
+              "size": "20 kg",
+              "unit": "Bag"
+            },
+            "gradeType": "Type 5",
+            "color": "Grey",
+            "price": {
+              "amount": 2250,
+              "currency": "INR",
+              "unit": "per Bag"
+            },
+            "minimumOrderQuantity": 200,
+            "specifications": {
+              "potLife": "Approx 2 hours",
+              "openTime": "30 min",
+              "shelfLife": "12 Months",
+              "waterResistant": true
+            },
+            "suitableForTiles": [
+              "Marble",
+              "Ceramic Tiles",
+              "Vitrified Tiles",
+              "Natural Stones",
+              "Granite"
+            ],
+            "applicationArea": [
+              "Exterior Wall",
+              "Interior Wall",
+              "Interior Floor",
+              "Exterior Floor",
+              "Submerged Areas",
+              "Tile on Tile"
+            ],
+            "specialFeatures": [
+              "Waterproof",
+              "Slip Resistant",
+              "Extended Open Time",
+              "Quick Setting",
+              "High Flexibility"
+            ],
+            "description": "Polymer modified Cementitious and extra bonding cellulose base adhesive for fixing all kind of Stone, Granite and Multipurpose on Front Tile Format. Cement based water resistant and can be used in interior and exterior conditions."
+          },
+          {
+            "productId": "TA_305",
+            "productName": "TA-305 Kertovit 20kg Tile Adhesive",
+            "brand": "Kertovit",
+            "packaging": {
+              "size": "20 kg",
+              "unit": "Bag"
+            },
+            "gradeType": "Type 1",
+            "color": "Grey",
+            "price": {
+              "amount": 848,
+              "currency": "INR",
+              "unit": "per Bag"
+            },
+            "minimumOrderQuantity": 200,
+            "specifications": {
+              "potLife": "Approx 2 hours",
+              "openTime": "30 min",
+              "shelfLife": "12 Months",
+              "waterResistant": true
+            },
+            "suitableForTiles": [
+              "Ceramic Tiles",
+              "Vitrified Tiles"
+            ],
+            "applicationArea": [
+              "Interior Floor",
+              "Interior Wall"
+            ],
+            "specialFeatures": [
+              "Quick Setting",
+              "Extended Open Time",
+              "High Flexibility",
+              "Slip Resistant"
+            ],
+            "description": "Polymer modified Cementitious tile adhesive for mixing ceramic and vitrified tiles of size up to 2/4 ft on the floor and wall for interior applications."
+          },
+          {
+            "productId": "TA_315",
+            "productName": "TA-315 Kerovit 20kg Tile Adhesive",
+            "brand": "Kerovit",
+            "packaging": {
+              "size": "20 kg",
+              "unit": "Bag"
+            },
+            "gradeType": "Type 3",
+            "color": "Grey",
+            "price": {
+              "amount": 1450,
+              "currency": "INR",
+              "unit": "per Bag"
+            },
+            "minimumOrderQuantity": 200,
+            "specifications": {
+              "potLife": "Approx 2 hours",
+              "openTime": "30 min",
+              "shelfLife": "12 Months",
+              "waterResistant": true
+            },
+            "suitableForTiles": [
+              "Marble",
+              "Porcelain Tile",
+              "Ceramic Tile",
+              "Vitrified Tile",
+              "Natural Stones"
+            ],
+            "applicationArea": [
+              "Exterior Wall",
+              "Exterior Floor",
+              "Interior Wall",
+              "Interior Floor"
+            ],
+            "specialFeatures": [
+              "Waterproof",
+              "High Flexibility",
+              "Extended Open Time",
+              "Slip Resistant",
+              "Quick Setting"
+            ],
+            "description": "Polymer modified Cementitious tile adhesive for fixing ceramic and vitrified tiles with excellent bond strength. High quality specially blended dry set adhesive for thin-bed for wall and floor external applications for all tile sizes."
+          },
+          {
+            "productId": "UNILOC_PREMIUM",
+            "productName": "Premium Grade 20kg Uniloc Tile Adhesive",
+            "brand": "Uniloc",
+            "packaging": {
+              "size": "20 kg",
+              "unit": "Bag"
+            },
+            "gradeType": "Type 1",
+            "color": "Grey",
+            "price": {
+              "amount": 599,
+              "currency": "INR",
+              "unit": "per Bag"
+            },
+            "minimumOrderQuantity": 200,
+            "specifications": {
+              "potLife": "Approx 2 hours",
+              "openTime": "30 min",
+              "shelfLife": "12 Months",
+              "adhesiveType": "Polymer Modified",
+              "waterResistant": true
+            },
+            "suitableForTiles": [
+              "Ceramic Tiles",
+              "Vitrified Tiles"
+            ],
+            "applicationArea": [
+              "Interior Wall",
+              "Interior Floor"
+            ],
+            "specialFeatures": [
+              "Quick Setting",
+              "Extended Open Time",
+              "High Flexibility",
+              "Slip Resistant"
+            ],
+            "description": "Smooth and creamy thin-set adhesive for installing small and medium format ceramic tiles, vitrified tiles & natural stones in interior areas for improved performance."
+          },
+          {
+            "productId": "UC_PLATINUM",
+            "productName": "UC Platinum 20kg Tile Adhesive",
+            "brand": "Uniloc",
+            "packaging": {
+              "size": "20 kg",
+              "unit": "Bag"
+            },
+            "gradeType": "Type 5",
+            "color": "Grey",
+            "price": {
+              "amount": 1199,
+              "currency": "INR",
+              "unit": "per Bag"
+            },
+            "minimumOrderQuantity": 200,
+            "specifications": {
+              "potLife": "Approx 2 hours",
+              "openTime": "30 min",
+              "waterResistant": true
+            },
+            "suitableForTiles": [
+              "Marble",
+              "Vitrified Tiles",
+              "Natural Stones",
+              "Ceramic Tiles",
+              "Granite"
+            ],
+            "applicationArea": [
+              "Submerged Areas",
+              "Tile on Tile",
+              "Interior Floor",
+              "Exterior Floor",
+              "Interior Wall",
+              "Exterior Wall"
+            ],
+            "specialFeatures": [
+              "Extended Open Time",
+              "Quick Setting",
+              "Slip Resistant",
+              "High Flexibility",
+              "Waterproof"
+            ],
+            "description": "Premium quality, polymer modified and multi-purpose thin-set adhesive for fixing glass mosaic, glass brick wall, and swimming pool tiles, marble and natural stones on variety of interior and exterior substrates for wall and floor applications."
+          },
+          {
+            "productId": "TA_03",
+            "productName": "TA-03 Green Slate 20kg Tile Adhesive",
+            "brand": "Green Slate",
+            "packaging": {
+              "size": "20 kg",
+              "unit": "Bag"
+            },
+            "gradeType": "Type 3",
+            "color": "Grey",
+            "price": {
+              "amount": 899,
+              "currency": "INR",
+              "unit": "per Bag"
+            },
+            "minimumOrderQuantity": 200,
+            "specifications": {
+              "potLife": "Approx 2 hours",
+              "openTime": "30 min",
+              "shelfLife": "12 Months",
+              "waterResistant": true
+            },
+            "suitableForTiles": [
+              "Natural Stones",
+              "Vitrified Tiles",
+              "Ceramic Tiles"
+            ],
+            "applicationArea": [
+              "Floors",
+              "Exterior",
+              "Interior",
+              "Walls"
+            ],
+            "specialFeatures": [
+              "High Strength",
+              "Slip Resistant",
+              "Water Resistant"
+            ],
+            "description": "High-performance, polymer-enhanced cement-based tile adhesive specially formulated for floor, wall, and tile-on-tile applications. Designed for superior bonding strength, ensuring secure fixing of ceramic, vitrified, porcelain, and natural stone tiles."
+          },
+          {
+            "productId": "TA_01",
+            "productName": "TA-01 Green Slate 20kg Tile Adhesive",
+            "brand": "Green Slate",
+            "packaging": {
+              "size": "20 kg",
+              "unit": "Bag"
+            },
+            "gradeType": "Type 1",
+            "color": "Grey",
+            "price": {
+              "amount": 599,
+              "currency": "INR",
+              "unit": "per Bag"
+            },
+            "minimumOrderQuantity": 200,
+            "specifications": {
+              "potLife": "Approx 2 hours",
+              "openTime": "30 min",
+              "shelfLife": "12 Months"
+            },
+            "suitableForTiles": [
+              "Ceramic Tiles",
+              "Vitrified Tiles"
+            ],
+            "applicationArea": [
+              "Interior Wall",
+              "Exterior Floor",
+              "Interior Floor",
+              "Tile on Tile"
+            ],
+            "specialFeatures": [
+              "Extended Open Time",
+              "High Flexibility",
+              "Slip Resistant",
+              "Quick Setting"
+            ],
+            "description": "Polymer modified cement based powder tile adhesive for fixing all types of ceramic and clay tiles. Suitable for both vertical and horizontal applications. Gives excellent bond on exterior cementitious surfaces like plaster or concrete."
+          },
+          {
+            "productId": "TA_05",
+            "productName": "TA-05 Green Slate 20kg Tile Adhesive",
+            "brand": "Green Slate",
+            "packaging": {
+              "size": "20 kg",
+              "unit": "Bag"
+            },
+            "gradeType": "Type 5",
+            "color": "Red",
+            "price": {
+              "amount": 1199,
+              "currency": "INR",
+              "unit": "per Bag"
+            },
+            "minimumOrderQuantity": 200,
+            "specifications": {
+              "potLife": "Approx 2 hours",
+              "openTime": "30 min",
+              "waterResistant": true
+            },
+            "suitableForTiles": [
+              "Ceramic Tiles",
+              "Marble",
+              "Natural Stones",
+              "Vitrified Tiles",
+              "Granite"
+            ],
+            "applicationArea": [
+              "Exterior Floor",
+              "Submerged Areas",
+              "Interior Floor",
+              "Interior Wall",
+              "Exterior Wall",
+              "Tile on Tile"
+            ],
+            "specialFeatures": [
+              "Slip Resistant",
+              "Waterproof",
+              "Quick Setting",
+              "Extended Open Time",
+              "High Flexibility"
+            ],
+            "description": "Polymer modified cement based powder tile adhesive for fixing all types of ceramic tiles, clay tiles, basalt tiles, terracotta, pavers, brick, vitrified tiles, glass mosaic tiles, porcelain tiles and all natural stone tiles."
+          },
+          {
+            "productId": "KEROVIT_240",
+            "productName": "240 Kerovit 20kg Tile Adhesive",
+            "brand": "Kerovit",
+            "packaging": {
+              "size": "20 kg",
+              "unit": "Bucket"
+            },
+            "gradeType": "Type 1",
+            "color": "Grey",
+            "price": {
+              "amount": 2500,
+              "currency": "INR",
+              "unit": "per Bucket"
+            },
+            "minimumOrderQuantity": 100,
+            "specifications": {
+              "potLife": "Approx 2 hours",
+              "openTime": "30 min",
+              "components": "Two-Component",
+              "polyurethaneBased": true
+            },
+            "suitableForTiles": [
+              "Natural Stones",
+              "Vitrified Tiles",
+              "Glass Mosaic",
+              "Granite",
+              "Ceramic Tiles"
+            ],
+            "applicationArea": [
+              "Interior",
+              "Exterior"
+            ],
+            "specialFeatures": [
+              "Quick Setting",
+              "Extended Open Time",
+              "Waterproof",
+              "Slip Resistant",
+              "High Flexibility"
+            ],
+            "description": "Two-component, modified Polyurethane adhesive designed for installation of ceramic tile, vitrified tile, metal tile, glass tile, agglomerates, glass mosaic tile, and natural stone on any substrate. Highly elastic, thixotropic, and suitable to lay water-sensitive tiles & stones on highly expandable, deformable, absorbent, and non-absorbent substrates."
+          },
+          {
+            "productId": "UC_GOLD",
+            "productName": "UC Gold 20kg Tile Adhesive",
+            "brand": "Uniloc",
+            "packaging": {
+              "size": "20 kg",
+              "unit": "Bag"
+            },
+            "gradeType": "Type 3",
+            "color": "Grey",
+            "price": {
+              "amount": 899,
+              "currency": "INR",
+              "unit": "per Bag"
+            },
+            "minimumOrderQuantity": 200,
+            "specifications": {
+              "potLife": "Approx 2 hours",
+              "openTime": "30 min",
+              "waterResistant": true
+            },
+            "suitableForTiles": [
+              "Vitrified Tiles",
+              "Natural Stones",
+              "Ceramic Tiles"
+            ],
+            "applicationArea": [
+              "Exterior Wall",
+              "Exterior Floor",
+              "Interior Floor",
+              "Interior Wall"
+            ],
+            "specialFeatures": [
+              "Waterproof",
+              "High Flexibility",
+              "Extended Open Time",
+              "Slip Resistant",
+              "Quick Setting"
+            ],
+            "description": "Premium quality, polymer modified, and multi-purpose thin-set adhesive for fixing vitrified tiles, natural stones and marble, glass brick wall, swimming pool tiles on variety of interior and exterior substrates for wall and floor applications."
+          }
+        ]
+      },
+      {
+        "categoryId": "CAT_002",
+        "categoryName": "Tile Grout",
+        "categoryDescription": "Complete range of tile grout products for joint filling",
+        "subProducts": [
+          {
+            "productId": "UNILOC_POLYMER_GRT",
+            "productName": "1Kg Uniloc Polymer Based Tile Grout",
+            "brand": "Uniloc",
+            "packaging": {
+              "size": "1 kg",
+              "unit": "Kg"
+            },
+            "groutType": "Polymer Modified",
+            "color": "White",
+            "price": {
+              "amount": 170,
+              "currency": "INR",
+              "unit": "per Kg"
+            },
+            "minimumOrderQuantity": 2,
+            "specifications": {
+              "jointWidth": "5mm",
+              "shelfLife": "12 Months",
+              "form": "Powder",
+              "waterResistant": true
+            },
+            "suitableForTiles": [
+              "Granite",
+              "Vitrified Tiles",
+              "Marble",
+              "Natural Stone",
+              "Ceramic Tiles",
+              "Mosaic Tiles"
+            ],
+            "features": [
+              "Water Resistant",
+              "Non-Shrink",
+              "Weather Resistant",
+              "UV Resistant",
+              "Flexible",
+              "Stain Resistant",
+              "Crack Resistant",
+              "Anti-Fungal"
+            ],
+            "description": "One component waterproof grout ideal for fitting & finishing of all types of tiles, marble and stone's joints in interior or exterior for both floors & walls, grouting of joint treatment with resistant water type joint."
+          },
+          {
+            "productId": "UNILOC_GT1",
+            "productName": "100ml GT-1 Uniloc Tile Grout",
+            "brand": "Uniloc",
+            "packaging": {
+              "size": "500 g",
+              "displayUnit": "100ml",
+              "unit": "Liquid"
+            },
+            "groutType": "Polymer Modified",
+            "type": "Cementitious",
+            "color": "White",
+            "price": {
+              "amount": 150,
+              "currency": "INR",
+              "unit": "per Kg"
+            },
+            "minimumOrderQuantity": 100,
+            "specifications": {
+              "jointWidth": "3mm",
+              "form": "Liquid",
+              "waterResistant": true
+            },
+            "suitableForTiles": [
+              "Mosaic Tiles",
+              "Vitrified Tiles",
+              "Marble",
+              "Natural Stone",
+              "Ceramic Tiles",
+              "Granite"
+            ],
+            "features": [
+              "Flexible",
+              "Anti-Fungal",
+              "UV Resistant",
+              "Non-Shrink",
+              "Water Resistant",
+              "Weather Resistant",
+              "Crack Resistant",
+              "Stain Resistant"
+            ],
+            "description": "Grout Admix provides one easy step to super charge your cement grout. Mix with unsanded cement grouts in place of water per grout manufacturer's use directions in indoor and outdoor applications."
+          },
+          {
+            "productId": "KEROVIT_SUPERIOR_GRT",
+            "productName": "1Kg Kerovit Superior Tile Grout",
+            "brand": "Kerovit",
+            "packaging": {
+              "size": "1 kg",
+              "unit": "Kg"
+            },
+            "groutType": "Cement Based",
+            "color": "White",
+            "price": {
+              "amount": 210,
+              "currency": "INR",
+              "unit": "per Kg"
+            },
+            "minimumOrderQuantity": 2,
+            "specifications": {
+              "jointWidth": "5mm",
+              "form": "Powder",
+              "productionCapacity": "5 metric ton"
+            },
+            "suitableForTiles": [
+              "Ceramic Tile",
+              "Porcelain Tile",
+              "Marble",
+              "Vitrified Tile",
+              "Mosaic",
+              "Granite"
+            ],
+            "applicationArea": [
+              "Outdoor",
+              "Kitchen",
+              "Industrial Area",
+              "Living Room",
+              "Bathroom",
+              "Swimming Pool",
+              "Balcony"
+            ],
+            "description": "White cement and polymer base grouting material which is used for joint filling in between tiles joints. When grout powder is mixed with water it will provide creamy soft paste with elastic nature. Creamy nature helps to fill joints properly as per technical requirements."
+          },
+          {
+            "productId": "GREENSLATE_GRT_1KG",
+            "productName": "1Kg Green Slate Tile Grout",
+            "brand": "Green Slate",
+            "packaging": {
+              "size": "1 kg",
+              "unit": "Kg"
+            },
+            "groutType": "Cement Based",
+            "color": "White",
+            "price": {
+              "amount": 170,
+              "currency": "INR",
+              "unit": "per Kg"
+            },
+            "minimumOrderQuantity": 2,
+            "specifications": {
+              "jointWidth": "3mm",
+              "form": "Powder"
+            },
+            "suitableForTiles": [
+              "Marble",
+              "Vitrified Tile",
+              "Ceramic Tile",
+              "Porcelain Tile",
+              "Granite",
+              "Mosaic"
+            ],
+            "applicationArea": [
+              "Industrial Area",
+              "Outdoor",
+              "Swimming Pool",
+              "Kitchen",
+              "Balcony",
+              "Bathroom",
+              "Living Room"
+            ],
+            "description": "High-quality cement-based grout formulated for durable and smooth joint filling between tiles. Provides excellent adhesion, reducing cracks and ensuring long-lasting performance in both interior and exterior areas. Fine texture offers a clean, uniform finish that enhances the overall look of tiled surfaces."
+          },
+          {
+            "productId": "GREENSLATE_GRT_1L",
+            "productName": "1L Green Slate Tile Grout",
+            "brand": "Green Slate",
+            "packaging": {
+              "size": "1 L",
+              "unit": "Liter"
+            },
+            "groutType": "Cement Based",
+            "color": "White",
+            "price": {
+              "amount": "Ask for Price",
+              "currency": "INR"
+            },
+            "specifications": {
+              "jointWidth": "4mm",
+              "form": "Liquid"
+            },
+            "suitableForTiles": [
+              "Mosaic Tile",
+              "Natural Stone Tile",
+              "Vitrified Tile",
+              "Marble Tile",
+              "Ceramic Tile",
+              "Porcelain Tile",
+              "Granite Tile"
+            ],
+            "applicationArea": [
+              "Parking Area",
+              "Bedroom",
+              "Living Room",
+              "Swimming Pool",
+              "Kitchen",
+              "Bathroom",
+              "Balcony"
+            ],
+            "description": "Specially formulated liquid additive designed to enhance the performance of cement-based grouts. Improves flexibility, bonding strength, and water resistance for long-lasting joint durability. Reduces shrinkage and cracking, ensuring a smoother and more uniform grout finish."
+          }
+        ]
+      },
+      {
+        "categoryId": "CAT_003",
+        "categoryName": "Epoxy Grout",
+        "categoryDescription": "Premium epoxy-based grout for specialized applications",
+        "subProducts": [
+          {
+            "productId": "GREENSLATE_EPOXY_5KG",
+            "productName": "5kg Green Slate Epoxy Grout",
+            "brand": "Green Slate",
+            "packaging": {
+              "size": "5 kg",
+              "unit": "Bucket"
+            },
+            "color": "White",
+            "price": {
+              "amount": 5250,
+              "currency": "INR",
+              "unit": "per Bucket"
+            },
+            "minimumOrderQuantity": 100,
+            "specifications": {
+              "components": "2-Part",
+              "form": "Powder/Liquid Mix"
+            },
+            "suitableForTiles": [
+              "All Tile Types"
+            ],
+            "applicationArea": [
+              "Floors & Walls",
+              "Hospitals",
+              "Exterior Areas",
+              "Kitchens",
+              "Bathrooms",
+              "Industrial Areas",
+              "Swimming Pools"
+            ],
+            "features": [
+              "Stain Resistant",
+              "Waterproof",
+              "Anti-Bacterial",
+              "UV Resistant",
+              "Non-Shrinking",
+              "Anti-Fungal",
+              "Chemical Resistant"
+            ],
+            "description": "Premium, two-component resin-based grout designed for joints that require superior strength and durability. Offers excellent resistance to stains, chemicals, and moisture, ensuring long-lasting performance. Smooth, non-porous finish prevents bacterial growth and makes cleaning effortless."
+          },
+          {
+            "productId": "KEROVIT_EPOXY_1KG",
+            "productName": "1Kg Kerovit Epoxy Grout",
+            "brand": "Kerovit",
+            "packaging": {
+              "size": "1 kg",
+              "unit": "Bucket"
+            },
+            "color": "White",
+            "price": {
+              "amount": 980,
+              "currency": "INR",
+              "unit": "per Bucket"
+            },
+            "minimumOrderQuantity": 100,
+            "specifications": {
+              "components": "2-Part",
+              "form": "Resin-based"
+            },
+            "applicationArea": [
+              "Swimming Pools",
+              "Kitchens",
+              "Hospitals",
+              "Exterior Areas",
+              "Floors & Walls",
+              "Bathrooms",
+              "Industrial Areas"
+            ],
+            "features": [
+              "UV Resistant",
+              "Stain Resistant",
+              "Anti-Bacterial",
+              "Waterproof",
+              "Non-Shrinking",
+              "Chemical Resistant",
+              "Anti-Fungal"
+            ],
+            "description": "Three and two component epoxy grouting compound based on resin, hardener and colored filler. All three compounds mixed at site as per requirement and filled in joint gap of tiles. Excellent bonding, easy to clean, no water penetration."
+          },
+          {
+            "productId": "KEROVIT_EPOXY_5KG",
+            "productName": "5Kg Kerovit Epoxy Grout",
+            "brand": "Kerovit",
+            "packaging": {
+              "size": "5 kg",
+              "unit": "Bucket"
+            },
+            "color": "White",
+            "price": {
+              "amount": 4899,
+              "currency": "INR",
+              "unit": "per Bucket"
+            },
+            "minimumOrderQuantity": 100,
+            "specifications": {
+              "components": "3-Part",
+              "finish": "Glitter/Sparkle"
+            },
+            "applicationArea": [
+              "Exterior Areas",
+              "Floors & Walls",
+              "Kitchens",
+              "Bathrooms",
+              "Industrial Areas",
+              "Hospitals",
+              "Swimming Pools"
+            ],
+            "features": [
+              "Chemical Resistant"
+            ],
+            "description": "Three and two component epoxy grouting compound based on resin, hardener and colored filler. All three compounds mixed at site as per requirement and filled in joint gap of tiles. Excellent bonding, easy to clean, no water penetration. Also available in 5kg packet."
+          },
+          {
+            "productId": "GREENSLATE_EPOXY_1KG",
+            "productName": "1kg Green Slate Epoxy Grout",
+            "brand": "Green Slate",
+            "packaging": {
+              "size": "1 kg",
+              "unit": "Bucket"
+            },
+            "color": "White",
+            "price": {
+              "amount": 1050,
+              "currency": "INR",
+              "unit": "per Bucket"
+            },
+            "minimumOrderQuantity": 100,
+            "specifications": {
+              "components": "2-Part",
+              "form": "Resin-based"
+            },
+            "applicationArea": [
+              "Swimming Pools",
+              "Industrial Areas",
+              "Floors & Walls",
+              "Kitchens",
+              "Hospitals",
+              "Exterior Areas"
+            ],
+            "features": [
+              "Chemical Resistant"
+            ],
+            "description": "Premium, two-component resin-based grout designed for joints that require superior strength and durability. Offers excellent resistance to stains, chemicals, and moisture, ensuring long-lasting performance. Smooth, non-porous finish prevents bacterial growth and makes cleaning effortless."
+          }
+        ]
+      },
+      {
+        "categoryId": "CAT_004",
+        "categoryName": "Tile Cleaner",
+        "categoryDescription": "Specialized cleaning solutions for all tile types",
+        "subProducts": [
+          {
+            "productId": "KEROVIT_CLEANER",
+            "productName": "1L Kerovit Tile Cleaner",
+            "brand": "Kerovit",
+            "packaging": {
+              "size": "1 L",
+              "unit": "Litre"
+            },
+            "color": "Red / Reddish",
+            "price": {
+              "amount": 210,
+              "currency": "INR",
+              "unit": "per Litre"
+            },
+            "minimumOrderQuantity": 12,
+            "specifications": {
+              "baseType": "Acid-Based",
+              "form": "Concentrate",
+              "shelfLife": "12 Months"
+            },
+            "suitableForTiles": [
+              "Vitrified Tiles",
+              "Natural Stone",
+              "Ceramic Tiles",
+              "Mosaic Tiles",
+              "Marble",
+              "Granite",
+              "Porcelain Tiles",
+              "Concrete"
+            ],
+            "stainTypeRemoved": [
+              "Paint Stains",
+              "Cement/Mortar",
+              "Grout Residue",
+              "Epoxy/Adhesive",
+              "Hard Water Stains",
+              "Rust",
+              "General Dirt/Grime",
+              "Oil & Grease"
+            ],
+            "features": [
+              "Eco-Friendly",
+              "Biodegradable",
+              "Fast Acting"
+            ],
+            "description": "High quality rapid active cleaner solution for use on tiles, bath tubs, wash basin etc. Rapid removal of white yellowish spot/layer along with water stains over tiles, cement stains, grime, oil, paint stains, grease, and ceramics. Removes stains and yellow spots."
+          },
+          {
+            "productId": "UNILOC_CLEANER",
+            "productName": "1L Uniloc Tile Cleaner",
+            "brand": "Uniloc",
+            "packaging": {
+              "size": "1 L",
+              "unit": "Litre"
+            },
+            "color": "Red / Reddish",
+            "price": {
+              "amount": 210,
+              "currency": "INR",
+              "unit": "per Litre"
+            },
+            "minimumOrderQuantity": 12,
+            "specifications": {
+              "baseType": "Acid-Based",
+              "form": "Concentrate",
+              "shelfLife": "12 Months"
+            },
+            "suitableForTiles": [
+              "Vitrified Tiles",
+              "Ceramic Tiles",
+              "Concrete",
+              "Mosaic Tiles",
+              "Granite",
+              "Porcelain Tiles",
+              "Natural Stone",
+              "Marble"
+            ],
+            "stainTypeRemoved": [
+              "Epoxy/Adhesive",
+              "Hard Water Stains",
+              "General Dirt/Grime",
+              "Cement/Mortar",
+              "Grout Residue",
+              "Oil & Grease",
+              "Paint Stains",
+              "Rust"
+            ],
+            "features": [
+              "Fast Acting",
+              "Eco-Friendly",
+              "Biodegradable"
+            ],
+            "description": "Specially formulated for all types of tiles & marbles. Removes white yellowish spots/layer over tiles, cement stains, paints, grime, grease, moss and wax from concrete."
+          },
+          {
+            "productId": "GREENSLATE_CLEANER",
+            "productName": "1L Green Slate Tile Cleaner",
+            "brand": "Green Slate",
+            "packaging": {
+              "size": "1 L",
+              "unit": "Litre"
+            },
+            "color": "Red / Reddish",
+            "price": {
+              "amount": 210,
+              "currency": "INR",
+              "unit": "per Litre"
+            },
+            "minimumOrderQuantity": 12,
+            "specifications": {
+              "baseType": "Acid-Based",
+              "form": "Concentrate",
+              "shelfLife": "12 Months"
+            },
+            "suitableForTiles": [
+              "Vitrified Tiles",
+              "Ceramic Tiles",
+              "Natural Stone",
+              "Mosaic Tiles",
+              "Porcelain Tiles",
+              "Marble",
+              "Granite",
+              "Concrete"
+            ],
+            "stainTypeRemoved": [
+              "General Dirt/Grime",
+              "Hard Water Stains",
+              "Rust",
+              "Cement/Mortar",
+              "Epoxy/Adhesive",
+              "Oil & Grease",
+              "Paint Stains",
+              "Grout Residue"
+            ],
+            "features": [
+              "Biodegradable",
+              "Fast Acting",
+              "Eco-Friendly"
+            ],
+            "description": "High-performance cleaning solution formulated to remove tough stains, grease, grime, and construction residues from all types of tiled surfaces. Powerful degreasing action penetrates deep into dirt and cement dust, delivering spotless, refreshed finish. Designed for both daily maintenance and heavy-duty post-work cleaning, restores natural shine of tiles."
+          }
+        ]
+      },
+      {
+        "categoryId": "CAT_005",
+        "categoryName": "Elastomeric Coating",
+        "categoryDescription": "Waterproofing coating solutions",
+        "subProducts": [
+          {
+            "productId": "ELASTOMERIC_2K",
+            "productName": "2k Elastomeric Coating",
+            "brand": "KO",
+            "packaging": {
+              "size": "5 kg",
+              "unit": "Pack"
+            },
+            "color": "Grey",
+            "price": {
+              "amount": 200,
+              "currency": "INR",
+              "unit": "per Kg"
+            },
+            "minimumOrderQuantity": 100,
+            "specifications": {
+              "baseType": "Acrylic",
+              "form": "Liquid",
+              "components": "Two Component",
+              "crackBridging": "Upto 2 mm",
+              "elongation": "Upto 150%"
+            },
+            "applicationArea": [
+              "Water Tanks",
+              "Exterior Walls",
+              "Wet Areas",
+              "Roofs & Terraces",
+              "Parapet Walls",
+              "Basements"
+            ],
+            "features": [
+              "Heat Reflective",
+              "Anti-Algal",
+              "Fast Drying",
+              "Fibre Reinforced",
+              "UV Resistant"
+            ],
+            "description": "Two-component, polymer-modified flexible cementitious waterproofing membrane specially designed for concrete and masonry surfaces. Supplied in ready-mix kits consisting of a powder component and an acrylic-modified liquid emulsion. When mixed and applied, forms a tough, seamless, and highly flexible waterproof membrane providing excellent protection against water penetration, moisture, and dampness."
+          }
+        ]
+      },
+      {
+        "categoryId": "CAT_006",
+        "categoryName": "Grout Admixture",
+        "categoryDescription": "Additives to enhance grout performance",
+        "subProducts": [
+          {
+            "productId": "KEROVIT_ADMIX",
+            "productName": "400ml Kerovit Grout Admixture",
+            "brand": "Kerovit",
+            "packaging": {
+              "size": "400 ml",
+              "unit": "Kg"
+            },
+            "price": {
+              "amount": 150,
+              "currency": "INR",
+              "unit": "per Kg"
+            },
+            "minimumOrderQuantity": 100,
+            "specifications": {
+              "usage": "Cement Grout",
+              "form": "Liquid",
+              "groutType": "Cementitious",
+              "dosage": "400ml/Bag",
+              "expansionType": "Gas Forming",
+              "chlorideContent": "Chloride Free"
+            },
+            "suitableGroutFlow": [
+              "Pourable"
+            ],
+            "description": "Milky polymer to be mixed with grout powder to provide waterproofing property and excellent hardness and bonding."
+          }
+        ]
+      },
+      {
+        "categoryId": "CAT_007",
+        "categoryName": "Curing Compound",
+        "categoryDescription": "Concrete curing solutions",
+        "subProducts": [
+          {
+            "productId": "BONDICO_CURING",
+            "productName": "20L Bondico Pigmented Curing Compound",
+            "brand": "Western Drymix",
+            "packaging": {
+              "size": "20 L",
+              "unit": "Drum"
+            },
+            "color": "White",
+            "price": {
+              "amount": 80,
+              "currency": "INR",
+              "unit": "per Litre"
+            },
+            "minimumOrderQuantity": 1000,
+            "specifications": {
+              "baseType": "Acrylic",
+              "form": "Liquid",
+              "coverage": "5 m2/L",
+              "appearance": "White",
+              "shelfLife": "12 months"
+            },
+            "usageApplication": [
+              "Columns",
+              "Slabs",
+              "Beams",
+              "Precast Units",
+              "Pavements"
+            ],
+            "description": "Membrane-forming liquids—typically wax, resin, or acrylic-based—sprayed onto fresh concrete to prevent water evaporation, ensuring maximum strength, durability, and reduced surface cracking. Applied immediately after finishing when surface sheen disappears. Eliminates need for constant wetting, crucial for large horizontal surfaces like highways, bridges, and floors."
+          }
+        ]
+      }
+    ]
+}

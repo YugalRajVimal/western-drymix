@@ -25,9 +25,17 @@ export default function Navbar() {
     }
   }, [menuOpen]);
 
-  // Highlight active route (for Home and About Us)
+  // Highlight active route (for Home, About Us, Products, Contact)
   const isHome = location.pathname === "/" || location.pathname === "";
   const isAbout = location.pathname === "/about";
+  const isProducts = location.pathname === "/products";
+  const isContact = location.pathname === "/contact";
+
+  // Handler to move to top and close menu (if open)
+  const handleLinkClick = () => {
+    setMenuOpen(false);
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  };
 
   const navLinks = (
     <>
@@ -40,7 +48,7 @@ export default function Navbar() {
             ? "text-black"
             : "text-white"
         }`}
-        onClick={() => setMenuOpen(false)}
+        onClick={handleLinkClick}
       >
         Home
       </Link>
@@ -53,49 +61,48 @@ export default function Navbar() {
             ? "text-black"
             : "text-white"
         }`}
-        onClick={() => setMenuOpen(false)}
+        onClick={handleLinkClick}
       >
         About Us
       </Link>
-      <a
-        href="#"
+      <Link
+        to="/products"
         className={`hover:text-green-500 ${
-          scrolled ? "text-black" : "text-white"
+          isProducts
+            ? "text-green-500 border-b-2 border-green-500 pb-1 md:pb-0 md:border-b-0"
+            : scrolled
+            ? "text-black"
+            : "text-white"
         }`}
-        onClick={() => setMenuOpen(false)}
+        onClick={handleLinkClick}
       >
         Products
-      </a>
-      <a
-        href="#"
+      </Link>
+      <Link
+        to="/contact"
         className={`hover:text-green-500 ${
-          scrolled ? "text-black" : "text-white"
+          isContact
+            ? "text-green-500 border-b-2 border-green-500 pb-1 md:pb-0 md:border-b-0"
+            : scrolled
+            ? "text-black"
+            : "text-white"
         }`}
-        onClick={() => setMenuOpen(false)}
-      >
-        Career
-      </a>
-      <a
-        href="#"
-        className={`hover:text-green-500 ${
-          scrolled ? "text-black" : "text-white"
-        }`}
-        onClick={() => setMenuOpen(false)}
+        onClick={handleLinkClick}
       >
         Contact Us
-      </a>
+      </Link>
     </>
   );
 
   return (
     <header
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300  ${
         scrolled ? "bg-white shadow-md py-6" : "bg-transparent py-5"
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         {/* Logo */}
-        <div className="flex items-center gap-2">
+        <Link to="/" className="flex items-center gap-2" onClick={handleLinkClick}>
           <img
             src="/logo.png"
             alt="chryso logo"
@@ -105,7 +112,8 @@ export default function Navbar() {
             <span className={`font-bold text-xl ${scrolled ? "text-black" : "text-white"}`}>Western Drymix</span>
             <span className={`text-xs ${scrolled ? "text-gray-500" : "text-gray-100/70"}`}></span>
           </div>
-        </div>
+        </Link>
+  
 
         {/* Nav Links Desktop */}
         <nav className="hidden md:flex items-center gap-8 font-medium">
@@ -114,9 +122,13 @@ export default function Navbar() {
 
         {/* Right Side / Hamburger */}
         <div className="flex items-center gap-4">
-          <button className="hidden md:flex items-center gap-2 bg-green-500 text-white px-5 py-2 rounded-full hover:bg-green-600 transition">
+          <Link
+            to="/contact"
+            className="hidden md:flex items-center gap-2 bg-green-500 text-white px-5 py-2 rounded-full hover:bg-green-600 transition"
+            onClick={handleLinkClick}
+          >
             Contact us <FiMail />
-          </button>
+          </Link>
           {/* Hamburger */}
           <button
             className={`md:hidden text-2xl focus:outline-none ${scrolled ? "text-black" : "text-white"}`}
@@ -143,7 +155,7 @@ export default function Navbar() {
               </button>
             </div>
             <nav className="flex flex-col gap-7 font-medium">
-              {/* For mobile, show route navigation for Home/About Us */}
+              {/* For mobile, show route navigation for Home/About Us/Products/Contact */}
               <Link
                 to="/"
                 className={`${
@@ -151,7 +163,7 @@ export default function Navbar() {
                     ? "text-green-500 border-b-2 border-green-500 pb-1"
                     : "hover:text-green-500 text-black"
                 }`}
-                onClick={() => setMenuOpen(false)}
+                onClick={handleLinkClick}
               >
                 Home
               </Link>
@@ -162,35 +174,40 @@ export default function Navbar() {
                     ? "text-green-500 border-b-2 border-green-500 pb-1"
                     : "hover:text-green-500 text-black"
                 }`}
-                onClick={() => setMenuOpen(false)}
+                onClick={handleLinkClick}
               >
                 About Us
               </Link>
-              <a
-                href="#"
-                className="hover:text-green-500 text-black"
-                onClick={() => setMenuOpen(false)}
+              <Link
+                to="/products"
+                className={`${
+                  isProducts
+                    ? "text-green-500 border-b-2 border-green-500 pb-1"
+                    : "hover:text-green-500 text-black"
+                }`}
+                onClick={handleLinkClick}
               >
                 Products
-              </a>
-              <a
-                href="#"
-                className="hover:text-green-500 text-black"
-                onClick={() => setMenuOpen(false)}
-              >
-                Career
-              </a>
-              <a
-                href="#"
-                className="hover:text-green-500 text-black"
-                onClick={() => setMenuOpen(false)}
+              </Link>
+              <Link
+                to="/contact"
+                className={`${
+                  isContact
+                    ? "text-green-500 border-b-2 border-green-500 pb-1"
+                    : "hover:text-green-500 text-black"
+                }`}
+                onClick={handleLinkClick}
               >
                 Contact Us
-              </a>
+              </Link>
             </nav>
-            <button className="flex items-center gap-2 bg-green-500 text-white px-5 py-2 rounded-full hover:bg-green-600 transition mt-6 w-fit">
+            <Link
+              to="/contact"
+              className="flex items-center gap-2 bg-green-500 text-white px-5 py-2 rounded-full hover:bg-green-600 transition mt-6 w-fit"
+              onClick={handleLinkClick}
+            >
               Contact us <FiMail />
-            </button>
+            </Link>
           </div>
         </div>
       )}

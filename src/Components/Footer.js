@@ -4,23 +4,20 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/f
 export function Footer() {
   return (
     <>
-      <section className="py-16 bg-zinc-100">
+      <section className="py-10 bg-zinc-100">
         <div className="max-w-7xl mx-auto  px-6">
           <h2 className="text-4xl md:text-5xl flex gap-2 font-semibold mb-4">
             <img
               src="/logo.png"
               alt="Western Drymix Logo"
-              className="h-12 mb-4"
+              className="h-12 mb-2"
             />
             Western Drymix
           </h2>
-          <p className="text-green-700 font-semibold mb-2 text-lg">Contact Us</p>
 
-          <div className="text-gray-800 text-sm leading-relaxed space-y-5 max-w-4xl">
-            <div className="flex items-center gap-2 text-base">
-              <FiPhone className="text-lg" />
-              <span className="font-medium text-green-700">+91 9999999999</span>
-            </div>
+
+          <div className="text-gray-800 text-sm leading-relaxed space-y-2 max-w-4xl">
+            
 
             <p className="italic text-xl text-gray-700 font-medium">
               Quality is not an act, it’s a habit. Excellence is built daily.
@@ -30,21 +27,16 @@ export function Footer() {
               At Western Drymix, we specialize in high-quality drymix solutions designed for modern construction needs. Our website showcases our innovative products, industry expertise, and commitment to excellence.
             </p>
 
-            <div className="flex items-center gap-2 text-base">
-              <FiMail className="text-lg"/>
-              <a href="mailto:Westerndrymix@gmail.com" className="text-green-700 underline">
-                Westerndrymix@gmail.com
-              </a>
-            </div>
+          
 
-            <div>
+            {/* <div>
               <span className="font-semibold">Address:</span><br />
               Matsya Industrial Area, Alwar, 301001<br />
               Rajasthan, India
             </div>
             <div>
               <span className="font-semibold">Available Daily:</span> 7am - 10pm
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

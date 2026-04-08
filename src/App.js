@@ -5,6 +5,8 @@ import HeroSection from './Components/HeroSection'
 import HomePage from './Pages/HomePage'
 import { Footer } from './Components/Footer'
 import AboutPage from './Pages/AboutPage'
+import ProductsPage from './Pages/ProductsPage'
+import ContactUsPage from './Pages/ContactUsPage'
 
 
 const App = () => {
@@ -14,6 +16,8 @@ const App = () => {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/products" element={<ProductsPage/>} />
+        <Route path="/contact" element={<ContactUsPage />} />
       </Routes>
       <Footer />
     </Router>
