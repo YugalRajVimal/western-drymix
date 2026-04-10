@@ -5,52 +5,7 @@
         "categoryName": "Tile Adhesives",
         "categoryDescription": "Leading tile adhesive products for various tile types and applications",
         "subProducts": [
-          {
-            "productId": "TA_335",
-            "productName": "TA-335 Kerovit 20kg Tile Adhesive",
-            "brand": "Kerovit",
-            "packaging": {
-              "size": "20 kg",
-              "unit": "Bag"
-            },
-            "gradeType": "Type 5",
-            "color": "Grey",
-            "price": {
-              "amount": 2250,
-              "currency": "INR",
-              "unit": "per Bag"
-            },
-            "minimumOrderQuantity": 200,
-            "specifications": {
-              "potLife": "Approx 2 hours",
-              "openTime": "30 min",
-              "shelfLife": "12 Months",
-              "waterResistant": true
-            },
-            "suitableForTiles": [
-              "Marble",
-              "Ceramic Tiles",
-              "Vitrified Tiles",
-              "Natural Stones",
-              "Granite"
-            ],
-            "applicationArea": [
-              "Exterior Wall",
-              "Interior Wall",
-              "Interior Floor",
-              "Exterior Floor",
-              "Submerged Areas",
-              "Tile on Tile"
-            ],
-            "specialFeatures": [
-              "Waterproof",
-              "Slip Resistant",
-              "Extended Open Time",
-              "Quick Setting",
-              "High Flexibility"
-            ],
-            "description": "Polymer modified Cementitious and extra bonding cellulose base adhesive for fixing all kind of Stone, Granite and Multipurpose on Front Tile Format. Cement based water resistant and can be used in interior and exterior conditions."
-          },
+        
           {
             "productId": "TA_305",
             "productName": "TA-305 Kertovit 20kg Tile Adhesive",
@@ -60,7 +15,7 @@
               "unit": "Bag"
             },
             "gradeType": "Type 1",
-            "color": "Grey",
+            "color": ["Grey", "White"],
             "price": {
               "amount": 848,
               "currency": "INR",
@@ -98,7 +53,7 @@
               "unit": "Bag"
             },
             "gradeType": "Type 3",
-            "color": "Grey",
+            "color": ["Grey", "White"],
             "price": {
               "amount": 1450,
               "currency": "INR",
@@ -134,15 +89,63 @@
             "description": "Polymer modified Cementitious tile adhesive for fixing ceramic and vitrified tiles with excellent bond strength. High quality specially blended dry set adhesive for thin-bed for wall and floor external applications for all tile sizes."
           },
           {
-            "productId": "UNILOC_PREMIUM",
-            "productName": "Premium Grade 20kg Uniloc Tile Adhesive",
-            "brand": "Uniloc",
+            "productId": "TA_335",
+            "productName": "TA-335 Kerovit 20kg Tile Adhesive",
+            "brand": "Kerovit",
+            "packaging": {
+              "size": "20 kg",
+              "unit": "Bag"
+            },
+            "gradeType": "Type 5",
+            "color": ["Grey", "White"],
+            "price": {
+              "amount": 2250,
+              "currency": "INR",
+              "unit": "per Bag"
+            },
+            "minimumOrderQuantity": 200,
+            "specifications": {
+              "potLife": "Approx 2 hours",
+              "openTime": "30 min",
+              "shelfLife": "12 Months",
+              "waterResistant": true
+            },
+            "suitableForTiles": [
+              "Marble",
+              "Ceramic Tiles",
+              "Vitrified Tiles",
+              "Natural Stones",
+              "Granite"
+            ],
+            "applicationArea": [
+              "Exterior Wall",
+              "Interior Wall",
+              "Interior Floor",
+              "Exterior Floor",
+              "Submerged Areas",
+              "Tile on Tile"
+            ],
+            "specialFeatures": [
+              "Waterproof",
+              "Slip Resistant",
+              "Extended Open Time",
+              "Quick Setting",
+              "High Flexibility"
+            ],
+            "description": "Polymer modified Cementitious and extra bonding cellulose base adhesive for fixing all kind of Stone, Granite and Multipurpose on Front Tile Format. Cement based water resistant and can be used in interior and exterior conditions."
+          },
+       
+         
+          {
+            "productId": "TA_01",
+            "productName": "TA-01 Green Slate 20kg Tile Adhesive",
+            "brand": "Green Slate",
             "packaging": {
               "size": "20 kg",
               "unit": "Bag"
             },
             "gradeType": "Type 1",
-            "color": "Grey",
+            "color": ["Grey", "White"],
             "price": {
               "amount": 599,
               "currency": "INR",
@@ -152,9 +155,7 @@
             "specifications": {
               "potLife": "Approx 2 hours",
               "openTime": "30 min",
-              "shelfLife": "12 Months",
-              "adhesiveType": "Polymer Modified",
-              "waterResistant": true
+              "shelfLife": "12 Months"
             },
             "suitableForTiles": [
               "Ceramic Tiles",
@@ -162,60 +163,17 @@
             ],
             "applicationArea": [
               "Interior Wall",
-              "Interior Floor"
-            ],
-            "specialFeatures": [
-              "Quick Setting",
-              "Extended Open Time",
-              "High Flexibility",
-              "Slip Resistant"
-            ],
-            "description": "Smooth and creamy thin-set adhesive for installing small and medium format ceramic tiles, vitrified tiles & natural stones in interior areas for improved performance."
-          },
-          {
-            "productId": "UC_PLATINUM",
-            "productName": "UC Platinum 20kg Tile Adhesive",
-            "brand": "Uniloc",
-            "packaging": {
-              "size": "20 kg",
-              "unit": "Bag"
-            },
-            "gradeType": "Type 5",
-            "color": "Grey",
-            "price": {
-              "amount": 1199,
-              "currency": "INR",
-              "unit": "per Bag"
-            },
-            "minimumOrderQuantity": 200,
-            "specifications": {
-              "potLife": "Approx 2 hours",
-              "openTime": "30 min",
-              "waterResistant": true
-            },
-            "suitableForTiles": [
-              "Marble",
-              "Vitrified Tiles",
-              "Natural Stones",
-              "Ceramic Tiles",
-              "Granite"
-            ],
-            "applicationArea": [
-              "Submerged Areas",
-              "Tile on Tile",
-              "Interior Floor",
               "Exterior Floor",
-              "Interior Wall",
-              "Exterior Wall"
+              "Interior Floor",
+              "Tile on Tile"
             ],
             "specialFeatures": [
               "Extended Open Time",
-              "Quick Setting",
-              "Slip Resistant",
               "High Flexibility",
-              "Waterproof"
+              "Slip Resistant",
+              "Quick Setting"
             ],
-            "description": "Premium quality, polymer modified and multi-purpose thin-set adhesive for fixing glass mosaic, glass brick wall, and swimming pool tiles, marble and natural stones on variety of interior and exterior substrates for wall and floor applications."
+            "description": "Polymer modified cement based powder tile adhesive for fixing all types of ceramic and clay tiles. Suitable for both vertical and horizontal applications. Gives excellent bond on exterior cementitious surfaces like plaster or concrete."
           },
           {
             "productId": "TA_03",
@@ -226,7 +184,7 @@
               "unit": "Bag"
             },
             "gradeType": "Type 3",
-            "color": "Grey",
+            "color": ["Grey", "White"],
             "price": {
               "amount": 899,
               "currency": "INR",
@@ -258,45 +216,6 @@
             "description": "High-performance, polymer-enhanced cement-based tile adhesive specially formulated for floor, wall, and tile-on-tile applications. Designed for superior bonding strength, ensuring secure fixing of ceramic, vitrified, porcelain, and natural stone tiles."
           },
           {
-            "productId": "TA_01",
-            "productName": "TA-01 Green Slate 20kg Tile Adhesive",
-            "brand": "Green Slate",
-            "packaging": {
-              "size": "20 kg",
-              "unit": "Bag"
-            },
-            "gradeType": "Type 1",
-            "color": "Grey",
-            "price": {
-              "amount": 599,
-              "currency": "INR",
-              "unit": "per Bag"
-            },
-            "minimumOrderQuantity": 200,
-            "specifications": {
-              "potLife": "Approx 2 hours",
-              "openTime": "30 min",
-              "shelfLife": "12 Months"
-            },
-            "suitableForTiles": [
-              "Ceramic Tiles",
-              "Vitrified Tiles"
-            ],
-            "applicationArea": [
-              "Interior Wall",
-              "Exterior Floor",
-              "Interior Floor",
-              "Tile on Tile"
-            ],
-            "specialFeatures": [
-              "Extended Open Time",
-              "High Flexibility",
-              "Slip Resistant",
-              "Quick Setting"
-            ],
-            "description": "Polymer modified cement based powder tile adhesive for fixing all types of ceramic and clay tiles. Suitable for both vertical and horizontal applications. Gives excellent bond on exterior cementitious surfaces like plaster or concrete."
-          },
-          {
             "productId": "TA_05",
             "productName": "TA-05 Green Slate 20kg Tile Adhesive",
             "brand": "Green Slate",
@@ -305,7 +224,7 @@
               "unit": "Bag"
             },
             "gradeType": "Type 5",
-            "color": "Red",
+            "color": ["Red", "White"],
             "price": {
               "amount": 1199,
               "currency": "INR",
@@ -342,6 +261,46 @@
             "description": "Polymer modified cement based powder tile adhesive for fixing all types of ceramic tiles, clay tiles, basalt tiles, terracotta, pavers, brick, vitrified tiles, glass mosaic tiles, porcelain tiles and all natural stone tiles."
           },
           {
+            "productId": "UNILOC_PREMIUM",
+            "productName": "Premium Grade 20kg Uniloc Tile Adhesive",
+            "brand": "Uniloc",
+            "packaging": {
+              "size": "20 kg",
+              "unit": "Bag"
+            },
+            "gradeType": "Type 1",
+            "color": ["Grey", "White"],
+            "price": {
+              "amount": 599,
+              "currency": "INR",
+              "unit": "per Bag"
+            },
+            "minimumOrderQuantity": 200,
+            "specifications": {
+              "potLife": "Approx 2 hours",
+              "openTime": "30 min",
+              "shelfLife": "12 Months",
+              "adhesiveType": "Polymer Modified",
+              "waterResistant": true
+            },
+            "suitableForTiles": [
+              "Ceramic Tiles",
+              "Vitrified Tiles"
+            ],
+            "applicationArea": [
+              "Interior Wall",
+              "Interior Floor"
+            ],
+            "specialFeatures": [
+              "Quick Setting",
+              "Extended Open Time",
+              "High Flexibility",
+              "Slip Resistant"
+            ],
+            "description": "Smooth and creamy thin-set adhesive for installing small and medium format ceramic tiles, vitrified tiles & natural stones in interior areas for improved performance."
+          },
+       
+          {
             "productId": "KEROVIT_240",
             "productName": "240 Kerovit 20kg Tile Adhesive",
             "brand": "Kerovit",
@@ -350,7 +309,7 @@
               "unit": "Bucket"
             },
             "gradeType": "Type 1",
-            "color": "Grey",
+            "color": ["Grey", "White"],
             "price": {
               "amount": 2500,
               "currency": "INR",
@@ -384,6 +343,51 @@
             "description": "Two-component, modified Polyurethane adhesive designed for installation of ceramic tile, vitrified tile, metal tile, glass tile, agglomerates, glass mosaic tile, and natural stone on any substrate. Highly elastic, thixotropic, and suitable to lay water-sensitive tiles & stones on highly expandable, deformable, absorbent, and non-absorbent substrates."
           },
           {
+            "productId": "UC_PLATINUM",
+            "productName": "UC Platinum 20kg Tile Adhesive",
+            "brand": "Uniloc",
+            "packaging": {
+              "size": "20 kg",
+              "unit": "Bag"
+            },
+            "gradeType": "Type 5",
+            "color": ["Grey", "White"],
+            "price": {
+              "amount": 1199,
+              "currency": "INR",
+              "unit": "per Bag"
+            },
+            "minimumOrderQuantity": 200,
+            "specifications": {
+              "potLife": "Approx 2 hours",
+              "openTime": "30 min",
+              "waterResistant": true
+            },
+            "suitableForTiles": [
+              "Marble",
+              "Vitrified Tiles",
+              "Natural Stones",
+              "Ceramic Tiles",
+              "Granite"
+            ],
+            "applicationArea": [
+              "Submerged Areas",
+              "Tile on Tile",
+              "Interior Floor",
+              "Exterior Floor",
+              "Interior Wall",
+              "Exterior Wall"
+            ],
+            "specialFeatures": [
+              "Extended Open Time",
+              "Quick Setting",
+              "Slip Resistant",
+              "High Flexibility",
+              "Waterproof"
+            ],
+            "description": "Premium quality, polymer modified and multi-purpose thin-set adhesive for fixing glass mosaic, glass brick wall, and swimming pool tiles, marble and natural stones on variety of interior and exterior substrates for wall and floor applications."
+          },
+          {
             "productId": "UC_GOLD",
             "productName": "UC Gold 20kg Tile Adhesive",
             "brand": "Uniloc",
@@ -392,7 +396,7 @@
               "unit": "Bag"
             },
             "gradeType": "Type 3",
-            "color": "Grey",
+            "color": ["Grey", "White"],
             "price": {
               "amount": 899,
               "currency": "INR",
@@ -425,6 +429,7 @@
             "description": "Premium quality, polymer modified, and multi-purpose thin-set adhesive for fixing vitrified tiles, natural stones and marble, glass brick wall, swimming pool tiles on variety of interior and exterior substrates for wall and floor applications."
           }
         ]
+   
       },
       {
         "categoryId": "CAT_002",
@@ -785,9 +790,117 @@
               "Chemical Resistant"
             ],
             "description": "Premium, two-component resin-based grout designed for joints that require superior strength and durability. Offers excellent resistance to stains, chemicals, and moisture, ensuring long-lasting performance. Smooth, non-porous finish prevents bacterial growth and makes cleaning effortless."
+          },
+          {
+            "productId": "GENERIC_2COMP_EPOXY",
+            "productName": "2-Component Standard Epoxy Grout",
+            "brand": "Generic",
+            "packaging": {
+              "size": "2 kg",
+              "unit": "Set"
+            },
+            "color": "Grey",
+            "price": {
+              "amount": 1850,
+              "currency": "INR",
+              "unit": "per Set"
+            },
+            "minimumOrderQuantity": 50,
+            "specifications": {
+              "components": "2-Part",
+              "form": "Resin & Hardener"
+            },
+            "suitableForTiles": [
+              "Porcelain Tile",
+              "Ceramic Tile",
+              "Glass Mosaic"
+            ],
+            "applicationArea": [
+              "Bathrooms",
+              "Kitchens",
+              "Balcony"
+            ],
+            "features": [
+              "Fast Curing",
+              "Waterproof",
+              "Easy to Apply"
+            ],
+            "description": "Reliable two-component epoxy grout for versatile tile applications. Offers tough waterproof joints, easy workability, and rapid curing suitable for kitchens and wet areas."
+          },
+          {
+            "productId": "GENERIC_3COMP_EPOXY",
+            "productName": "3-Component Advanced Epoxy Grout",
+            "brand": "Generic",
+            "packaging": {
+              "size": "4 kg",
+              "unit": "Set"
+            },
+            "color": "Ivory",
+            "price": {
+              "amount": 3200,
+              "currency": "INR",
+              "unit": "per Set"
+            },
+            "minimumOrderQuantity": 40,
+            "specifications": {
+              "components": "3-Part",
+              "additive": "Colored Filler"
+            },
+            "suitableForTiles": [
+              "Natural Stone",
+              "Vitrified Tile",
+              "Granite"
+            ],
+            "applicationArea": [
+              "Swimming Pools",
+              "High Traffic Areas"
+            ],
+            "features": [
+              "High Mechanical Strength",
+              "Chemical Resistant",
+              "Color Stability"
+            ],
+            "description": "Three-component epoxy grout system engineered for high performance in the most demanding areas. Delivers exceptional mechanical and chemical resistance, ideal for commercial and heavy-duty environments."
+          },
+          {
+            "productId": "GENERIC_GEL_EPOXY",
+            "productName": "Gel Base Epoxy Grout",
+            "brand": "Generic",
+            "packaging": {
+              "size": "1.5 kg",
+              "unit": "Tub"
+            },
+            "color": "Light Blue",
+            "price": {
+              "amount": 2650,
+              "currency": "INR",
+              "unit": "per Tub"
+            },
+            "minimumOrderQuantity": 30,
+            "specifications": {
+              "components": "2-Part",
+              "form": "Gel Based"
+            },
+            "suitableForTiles": [
+              "Glass Tile",
+              "Subway Tile",
+              "Mosaic"
+            ],
+            "applicationArea": [
+              "Vertical Surfaces",
+              "Showers",
+              "Wet Walls"
+            ],
+            "features": [
+              "Non-Sag Gel Consistency",
+              "Easy to Clean",
+              "Moisture Barrier"
+            ],
+            "description": "Innovative gel base epoxy grout that offers anti-sag application on vertical surfaces, easy residue cleaning, and high resistance to moisture. Perfect for intricate tile patterns and vertical installations."
           }
         ]
       },
+ 
       {
         "categoryId": "CAT_004",
         "categoryName": "Tile Cleaner",
@@ -1054,5 +1167,291 @@
           }
         ]
       }
+      ,
+      {
+        "categoryId": "CAT_008",
+        "categoryName": "Paint",
+        "categoryDescription": "Versatile paint solutions for interior and exterior surfaces",
+        "subProducts": [
+          {
+            "productId": "PLASTIC_PAINT_20L",
+            "productName": "20L Premium Plastic Paint",
+            "brand": "ColorX",
+            "packaging": {
+              "size": "20 L",
+              "unit": "Bucket"
+            },
+            "color": ["White", "Pastel Shades"],
+            "price": {
+              "amount": 3200,
+              "currency": "INR",
+              "unit": "per Bucket"
+            },
+            "minimumOrderQuantity": 10,
+            "specifications": {
+              "baseType": "Water-Based",
+              "finish": "Smooth Matt",
+              "washability": "High",
+              "shelfLife": "2 Years"
+            },
+            "areaOfApplication": [
+              "Interior Walls",
+              "Ceilings"
+            ],
+            "features": [
+              "Low Odour",
+              "Excellent Coverage",
+              "Easy Application"
+            ],
+            "description": "High quality plastic emulsion paint suitable for all types of interior walls. Provides a smooth, long-lasting finish and great washability."
+          },
+          {
+            "productId": "ENAMEL_PAINT_4L",
+            "productName": "4L Superior Enamel Paint",
+            "brand": "BrightGuard",
+            "packaging": {
+              "size": "4 L",
+              "unit": "Tin"
+            },
+            "color": ["White", "Blue", "Red", "Green"],
+            "price": {
+              "amount": 1200,
+              "currency": "INR",
+              "unit": "per Tin"
+            },
+            "minimumOrderQuantity": 6,
+            "specifications": {
+              "baseType": "Oil-Based",
+              "finish": "Glossy",
+              "dryingTime": "5 hours",
+              "shelfLife": "2 Years"
+            },
+            "areaOfApplication": [
+              "Wood",
+              "Metal",
+              "Walls"
+            ],
+            "features": [
+              "High Durability",
+              "Stain Resistant"
+            ],
+            "description": "Premium quality enamel paint ideal for metal, wood and masonry. Provides a rich gloss finish and long-lasting protection."
+          },
+          {
+            "productId": "ACRYLIC_PAINT_1L",
+            "productName": "1L Multipurpose Acrylic Paint",
+            "brand": "AcrylPro",
+            "packaging": {
+              "size": "1 L",
+              "unit": "Bottle"
+            },
+            "color": ["White", "Blue", "Yellow", "Green", "Red"],
+            "price": {
+              "amount": 350,
+              "currency": "INR",
+              "unit": "per Bottle"
+            },
+            "minimumOrderQuantity": 12,
+            "specifications": {
+              "baseType": "Acrylic",
+              "finish": "Sheen/Semi-Gloss",
+              "washability": "Medium",
+              "shelfLife": "1.5 Years"
+            },
+            "areaOfApplication": [
+              "Walls",
+              "Art",
+              "Crafts"
+            ],
+            "features": [
+              "Quick Dry",
+              "Low VOC",
+              "Water Thinnable"
+            ],
+            "description": "Multipurpose acrylic paint for decorative and protective applications. Offers a semi-gloss finish with low odour, quick drying and decent washability."
+          },
+          {
+            "productId": "DISTEMPER_20KG",
+            "productName": "20Kg Classic Wall Distemper",
+            "brand": "WallTone",
+            "packaging": {
+              "size": "20 kg",
+              "unit": "Bag"
+            },
+            "color": ["White", "Light Pastel"],
+            "price": {
+              "amount": 1400,
+              "currency": "INR",
+              "unit": "per Bag"
+            },
+            "minimumOrderQuantity": 8,
+            "specifications": {
+              "baseType": "Chalk Based",
+              "finish": "Matt",
+              "shelfLife": "1 Year"
+            },
+            "areaOfApplication": [
+              "Interior Walls"
+            ],
+            "features": [
+              "Economical",
+              "Easy Mixing"
+            ],
+            "description": "Traditional distemper, ideal for large scale interior work. Provides a basic, economical matt finish on walls and ceilings."
+          }
+        ]
+      },
+      {
+        "categoryId": "CAT_009",
+        "categoryName": "Waterproofing",
+        "categoryDescription": "Solutions for superior waterproofing of concrete & masonry",
+        "subProducts": [
+          {
+            "productId": "WATERPROOFING_URP_20L",
+            "productName": "20L Universal Repair Polymer (URP)",
+            "brand": "HydroGuard",
+            "packaging": {
+              "size": "20 L",
+              "unit": "Drum"
+            },
+            "color": ["Milky White"],
+            "price": {
+              "amount": 3200,
+              "currency": "INR",
+              "unit": "per Drum"
+            },
+            "minimumOrderQuantity": 2,
+            "specifications": {
+              "baseType": "Acrylic Polymer",
+              "form": "Liquid",
+              "dosage": "4-5% by weight of cement",
+              "shelfLife": "12 Months"
+            },
+            "applicationArea": [
+              "Terrace",
+              "Bathrooms",
+              "Water Tanks",
+              "Toilets",
+              "Basements"
+            ],
+            "features": [
+              "Multipurpose Waterproofing",
+              "Improves Bonding",
+              "Crack Resistance"
+            ],
+            "description": "Multipurpose polymer (URP) for use as a waterproof coating, bonding agent and in modifications for waterproof mortars/concretes."
+          },
+          {
+            "productId": "WATERPROOFING_LWP_10L",
+            "productName": "10L Liquid Waterproofing Compound (LWP)",
+            "brand": "AquaShield",
+            "packaging": {
+              "size": "10 L",
+              "unit": "Can"
+            },
+            "color": ["Transparent"],
+            "price": {
+              "amount": 1700,
+              "currency": "INR",
+              "unit": "per Can"
+            },
+            "minimumOrderQuantity": 3,
+            "specifications": {
+              "baseType": "Integral Liquid",
+              "form": "Liquid",
+              "dosage": "100ml per 50kg cement",
+              "shelfLife": "18 Months"
+            },
+            "applicationArea": [
+              "Concrete Slabs",
+              "Plaster",
+              "Roofing",
+              "Toilets"
+            ],
+            "features": [
+              "Reduces Permeability",
+              "Prevents Dampness",
+              "Easy to use"
+            ],
+            "description": "Integral liquid waterproofing compound for cement, concrete, and plaster. Minimizes water permeability and dampness in structures."
+          },
+          {
+            "productId": "WATERPROOFING_DAMNPROOF_5L",
+            "productName": "5L Damnproof Waterproofing",
+            "brand": "DampCare",
+            "packaging": {
+              "size": "5 L",
+              "unit": "Can"
+            },
+            "color": ["White"],
+            "price": {
+              "amount": 950,
+              "currency": "INR",
+              "unit": "per Can"
+            },
+            "minimumOrderQuantity": 4,
+            "specifications": {
+              "baseType": "Acrylic Copolymer",
+              "form": "Ready to Use Liquid",
+              "shelfLife": "24 Months"
+            },
+            "applicationArea": [
+              "Terrace",
+              "External Walls",
+              "Foundations",
+              "Balconies",
+              "Basements"
+            ],
+            "features": [
+              "Elastomeric",
+              "UV Resistant",
+              "Flexible Crack Bridging"
+            ],
+            "description": "Damnproof coating provides long-lasting waterproofing for terraces and external surfaces. UV resistant and form a seamless, flexible membrane."
+          }
+        ]
+      }
+      ,
+      {
+        "categoryId": "CAT_010",
+        "categoryName": "Wall Putty",
+        "categoryDescription": "Premium putty for interior and exterior wall finishing",
+        "subProducts": [
+          {
+            "productId": "WALL_PUTTY_STANDARD_20KG",
+            "productName": "Standard Wall Putty 20kg",
+            "brand": "SmoothFinish",
+            "packaging": {
+              "size": "20 kg",
+              "unit": "Bag"
+            },
+            "color": ["White"],
+            "price": {
+              "amount": 600,
+              "currency": "INR",
+              "unit": "per Bag"
+            },
+            "minimumOrderQuantity": 2,
+            "specifications": {
+              "baseType": "White Cement",
+              "form": "Powder",
+              "shelfLife": "12 Months"
+            },
+            "applicationArea": [
+              "Interior Walls",
+              "Exterior Walls",
+              "Ceilings"
+            ],
+            "features": [
+              "Smooth Finish",
+              "Strong Adhesion",
+              "Water Resistant",
+              "Prevents Flaking"
+            ],
+            "description": "Premium wall putty for finishing and levelling plastered surfaces, creating a smooth and durable base for painting."
+          }
+        ]
+      }
+ 
     ]
 }

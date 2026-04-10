@@ -39,31 +39,52 @@ const ProductsPage = () => {
     (c) => c.categoryId === selectedCategory
   ) % categoryColors.length;
 
+  // For hash-link like navigation and highlighting
+  React.useEffect(() => {
+    window.location.hash = "#" + encodeURIComponent(currentCategory.categoryName.replace(/\s+/g, '').toLowerCase());
+  }, [currentCategory.categoryName]);
+
   return (
     <div className=" font-poppins  min-h-screen">
-        <ProductsHeader />
+      <ProductsHeader />
 
-
-      <div className="flex flex-wrap gap-4 justify-center my-10">
-        {products.map((cat, idx) => {
-          const isActive = selectedCategory === cat.categoryId;
-          return (
-            <button
-              key={cat.categoryId}
-              onClick={() => setSelectedCategory(cat.categoryId)}
-              className={`px-6 py-3 rounded-full border transition-all duration-150 min-w-[120px] font-medium text-base md:text-lg ${
-                isActive
-                  ? `${categoryColors[idx % categoryColors.length]} font-bold shadow-md border-2`
-                  : `bg-white text-gray-800 border border-gray-300 font-medium hover:bg-gray-100`
-              }`}
-            >
-              {cat.categoryName}
-            </button>
-          );
-        })}
+      {/* Improved Category Bar for 10 Categories */}
+      <div className="w-full flex justify-center my-10 ">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 gap-4 min-w-max">
+          {products.map((cat, idx) => {
+            const isActive = selectedCategory === cat.categoryId;
+            const hash = "#" + encodeURIComponent(cat.categoryName.replace(/\s+/g, '').toLowerCase());
+            return (
+              <a
+                key={cat.categoryId}
+                href={hash}
+                onClick={(e) => {
+                  e.preventDefault();
+                  setSelectedCategory(cat.categoryId);
+                  window.location.hash = hash;
+                }}
+                className={`flex items-center justify-center px-5 py-3 rounded-full border transition-all duration-150 min-w-[130px] font-medium text-sm sm:text-base cursor-pointer text-center whitespace-nowrap
+                  ${
+                    isActive
+                      ? `${categoryColors[idx % categoryColors.length]} font-bold shadow-lg border-2 scale-105`
+                      : `bg-white text-gray-900 border border-gray-200 font-medium hover:bg-gray-100 hover:text-blue-900`
+                  }
+                `}
+                style={{ textDecoration: "none" }}
+                tabIndex={0}
+              >
+                {cat.categoryName}
+              </a>
+            );
+          })}
+        </div>
       </div>
+ 
 
-      <div className="bg-white mx-auto mb-10 px-5 py-9 md:px-8 md:py-10">
+      <div
+        id={currentCategory.categoryName.replace(/\s+/g, '').toLowerCase()}
+        className="bg-white mx-auto mb-10 px-5 py-9 md:px-8 md:py-10"
+      >
         <h2
           className={`font-semibold text-2xl md:text-3xl mb-2 ${categoryColorMap[catColorIdx]}`}
         >
@@ -96,12 +117,68 @@ const ProductsPage = () => {
                   </div>
                 )}
                 {prod.color && (
-                  <div className="rounded bg-violet-100 text-violet-700 px-3 py-1 text-xs font-semibold">
-                    {typeof prod.color === "string"
-                      ? prod.color
-                      : prod.color.join(", ")}
+                  <div className="flex items-center gap-2 rounded bg-violet-50 px-3 py-1 text-xs font-semibold">
+                    <span className="mr-1 text-violet-700">Color:</span>
+                    {Array.isArray(prod.color)
+                      ? prod.color.map((color, i) => (
+                          <span key={color + i} className="flex items-center gap-1">
+                            <span
+                              className="inline-block w-3 h-3 rounded-full border border-gray-400"
+                              style={{
+                                backgroundColor:
+                                  color.toLowerCase() === "grey"
+                                    ? "#A3A3A3"
+                                    : color.toLowerCase() === "gray"
+                                    ? "#A3A3A3"
+                                    : color.toLowerCase() === "white"
+                                    ? "#fff"
+                                    : color.toLowerCase() === "red"
+                                    ? "#EF4444"
+                                    : color.toLowerCase() === "blue"
+                                    ? "#3B82F6"
+                                    : color.toLowerCase() === "yellow"
+                                    ? "#FACC15"
+                                    : color.toLowerCase() === "black"
+                                    ? "#000"
+                                    : color // fallback
+                              }}
+                              title={color}
+                            />
+                            <span className="capitalize text-gray-800">{color}</span>
+                            {i < prod.color.length - 1 && <span className="text-violet-400">,</span>}
+                          </span>
+                        ))
+                      : (
+                        <span className="flex items-center gap-1">
+                          <span
+                            className="inline-block w-3 h-3 rounded-full border border-gray-400"
+                            style={{
+                              backgroundColor:
+                                prod.color.toLowerCase() === "grey"
+                                  ? "#A3A3A3"
+                                  : prod.color.toLowerCase() === "gray"
+                                  ? "#A3A3A3"
+                                  : prod.color.toLowerCase() === "white"
+                                  ? "#fff"
+                                  : prod.color.toLowerCase() === "red"
+                                  ? "#EF4444"
+                                  : prod.color.toLowerCase() === "blue"
+                                  ? "#3B82F6"
+                                  : prod.color.toLowerCase() === "yellow"
+                                  ? "#FACC15"
+                                  : prod.color.toLowerCase() === "black"
+                                  ? "#000"
+                                  : prod.color
+                            }}
+                            title={prod.color}
+                          />
+                          <span className="capitalize text-gray-800">{prod.color}</span>
+                        </span>
+                      )
+                    }
                   </div>
                 )}
+         
                 {prod.groutType && (
                   <div className="rounded bg-purple-100 text-purple-600 px-3 py-1 text-xs font-semibold">
                     {prod.groutType}
@@ -109,7 +186,7 @@ const ProductsPage = () => {
                 )}
               </div>
               {/* Price and Minimum Order */}
-              <div className="mb-2">
+              {/* <div className="mb-2">
                 <span className="text-blue-900 font-bold text-lg mr-2">
                   {prod.price && formatMoney(prod.price.amount, prod.price.currency)}
                   {prod.price && prod.price.unit && (
@@ -123,7 +200,7 @@ const ProductsPage = () => {
                     MOQ: {prod.minimumOrderQuantity}
                   </span>
                 )}
-              </div>
+              </div> */}
               {/* Features & Tags */}
               {(prod.specialFeatures?.length > 0 || prod.features?.length > 0) && (
                 <div className="mb-2">
@@ -173,33 +250,15 @@ const ProductsPage = () => {
               )}
               {/* More Details */}
               <div className="mt-2">
-                <details>
-                  <summary className="cursor-pointer text-blue-600 font-medium text-sm py-1">
-                    More Details
-                  </summary>
-                  <div className="text-gray-700 text-xs mt-1">
-                    {prod.specifications && (
-                      <div className="mb-1">
-                        <strong>Specs:</strong>{" "}
-                        {Object.entries(prod.specifications)
-                          .filter(([k, v]) => v && v !== true)
-                          .map(([k, v], i) => (
-                            <span key={i} className="mr-2 text-gray-700">
-                              <b>
-                                {k.replace(/([A-Z])/g, ' $1')}
-                              </b>: {typeof v === 'boolean' ? (v ? 'Yes' : 'No') : v}
-                            </span>
-                          ))}
-                      </div>
-                    )}
-                    {prod.description && (
-                      <div className="mt-2 text-[13px] text-gray-800">
-                        <strong>Description:</strong> {prod.description}
-                      </div>
-                    )}
-                  </div>
-                </details>
+                <div className="text-gray-700 text-xs mt-1">
+                  {prod.description && (
+                    <div className="mt-2 text-[13px] text-gray-800">
+                      <strong>Description:</strong> {prod.description}
+                    </div>
+                  )}
+                </div>
               </div>
+         
             </div>
           ))}
         </div>

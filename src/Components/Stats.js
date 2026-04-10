@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 
 export function Stats() {
   const stats = [
-    { value: "50+", label: "Tons Net Sales" },
+    // { value: "50+", label: "Tons Net Sales" },
     { value: "40+", label: "Brands" },
-    { value: "100+", label: "Number of Employees" },
-    { value: "2+", label: "Manufacturing Units in India" },
+    // { value: "100+", label: "Number of Employees" },
+    { value: "3+", label: "Manufacturing Units in India" },
   ];
 
   return (

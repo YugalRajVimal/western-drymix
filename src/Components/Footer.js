@@ -1,7 +1,18 @@
 import { FiPhone, FiMail } from "react-icons/fi";
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import productsData from "../Data/products.json"; // Import products for categories
 
 export function Footer() {
+  // Generate hash links exactly as on ProductsPage
+  function getCategoryHash(name) {
+    return "#" + encodeURIComponent(name.replace(/\s+/g, '').toLowerCase());
+  }
+
+  // Extract product categories
+  const categories = Array.isArray(productsData?.products)
+    ? productsData.products
+    : [];
+
   return (
     <>
       <section className="py-10 bg-zinc-100">
@@ -42,9 +53,9 @@ export function Footer() {
       </section>
 
       <footer className="bg-[#7ac000] text-black">
-        <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Left: About Us */}
-          <div className="">
+          <div>
             <div className="flex items-center gap-2 mb-4">
               <img
                 src="/logo.png"
@@ -108,13 +119,30 @@ export function Footer() {
           </div>
 
           {/* Middle: Quick Links */}
-          <div className="flex flex-col  mx-auto">
+          <div className="flex flex-col mx-auto">
             <h3 className="font-semibold text-lg mb-4">Quick Links</h3>
             <ul className="space-y-3 text-sm">
               <li className="hover:underline cursor-pointer">About Us</li>
               <li className="hover:underline cursor-pointer">Privacy Policy</li>
               <li className="hover:underline cursor-pointer">Terms & Conditions</li>
               <li className="hover:underline cursor-pointer">Contact Us</li>
+            </ul>
+          </div>
+
+          {/* New: Product Categories Links */}
+          <div className="flex flex-col mx-auto">
+            <h3 className="font-semibold text-lg mb-4">Product Categories</h3>
+            <ul className="space-y-3 text-sm">
+              {categories.map((cat) => (
+                <li key={cat.categoryId}>
+                  <a
+                    href={getCategoryHash(cat.categoryName)}
+                    className="hover:underline hover:text-green-700 transition"
+                  >
+                    {cat.categoryName}
+                  </a>
+                </li>
+              ))}
             </ul>
           </div>
 
