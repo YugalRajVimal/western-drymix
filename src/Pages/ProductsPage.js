@@ -86,7 +86,7 @@ const ProductsPage = () => {
         className="bg-white mx-auto mb-10 px-5 py-9 md:px-8 md:py-10"
       >
         <h2
-          className={`font-semibold text-2xl md:text-3xl mb-2 ${categoryColorMap[catColorIdx]}`}
+          className={`font-serif font-semibold text-2xl md:text-3xl mb-2 ${categoryColorMap[catColorIdx]}`}
         >
           {currentCategory.categoryName}
         </h2>
@@ -103,7 +103,7 @@ const ProductsPage = () => {
               <div className="absolute right-5 top-5 bg-blue-100 text-blue-900 rounded px-3 py-1.5 text-xs font-semibold tracking-wide uppercase">
                 {prod.brand}
               </div>
-              <h3 className="text-base font-bold text-gray-800 mt-2 mb-2">{prod.productName}</h3>
+              <h3 className="text-base font-bold text-gray-800 mt-2 mb-2 font-serif">{prod.productName}</h3>
               <div className="mb-2 text-gray-600">{prod.description}</div>
               <div className="flex flex-wrap gap-3 mb-3">
                 {prod.packaging && (

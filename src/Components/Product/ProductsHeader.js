@@ -1,5 +1,9 @@
 // ================= PRODUCTS HEADER =================
 export function ProductsHeader() {
+  // Theme colors
+  const gold = "#fdca00";
+  const blue = "#0393da";
+
   return (
     <section className="relative w-full h-[60vh] min-h-[420px]">
       {/* Background */}
@@ -11,22 +15,44 @@ export function ProductsHeader() {
         }}
       />
 
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-black/40" />
+      {/* Overlay with blue tint */}
+      <div
+        className="absolute inset-0"
+        style={{
+          background: `linear-gradient(120deg, ${blue}cc 0%, #0005 66%)`,
+          mixBlendMode: 'multiply',
+        }}
+      />
 
       {/* Content */}
       <div className="relative z-10 h-full flex items-center justify-center">
-        <h1 className="text-white text-5xl md:text-6xl font-semibold">
+        <h1
+          className="font-serif font-semibold text-5xl md:text-6xl"
+          style={{
+            color: gold,
+          }}
+        >
           Our Products
         </h1>
       </div>
 
       {/* Breadcrumb */}
-      <div className="absolute bottom-0 left-0 w-full bg-white">
+      <div
+        className="absolute bottom-0 left-0 w-full"
+        style={{ background: blue }}
+      >
         <div className="max-w-7xl mx-auto px-6 py-4 text-sm flex items-center gap-3">
-          <span className="text-gray-600">HOME</span>
-          <span className="text-gray-400">|</span>
-          <span className="text-green-600 font-medium">
+          <span style={{ color: gold, fontWeight: 500 }}>
+            HOME
+          </span>
+          <span style={{ color: "#fff", fontWeight: 400 }}>|</span>
+          <span
+            className="text-white"
+            style={{
+              fontWeight: 600,
+              letterSpacing: "0.5px",
+            }}
+          >
             PRODUCTS
           </span>
         </div>

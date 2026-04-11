@@ -19,7 +19,7 @@ export function FeatureSlider() {
               OUR TEAM, OUR STRENGTH
             </span>
 
-            <h3 className="text-3xl md:text-4xl font-bold leading-tight mb-4">
+            <h3 className="text-3xl md:text-4xl font-bold leading-tight mb-4 font-serif">
               We believe in empowering talent, fostering innovation,<br className="hidden md:inline" /> and creating endless opportunities.
             </h3>
 
@@ -27,13 +27,13 @@ export function FeatureSlider() {
               Whether you’re starting your journey or taking the next big step in your career, we offer an environment where learning, collaboration, and excellence thrive.
             </p>
             <p className="mt-2 text-white/90 text-lg md:text-xl font-semibold italic">
-              Your growth fuels <span className="text-green-400 not-italic">our success.</span>
+              Your growth fuels <span className="text-[#0393da] not-italic">our success.</span>
             </p>
             <p className="mt-2 text-white/80 text-base md:text-lg">
               Join us and be part of something extraordinary.
             </p>
 
-            <button className="mt-4 bg-green-500 hover:bg-green-600 px-7 py-3 rounded-full w-fit font-semibold text-base shadow-md transition">
+            <button className="mt-4 bg-[#0393da] hover:bg-blue-600 px-7 py-3 rounded-full w-fit font-semibold text-base shadow-md transition">
               Join Our Team
             </button>
           </div>

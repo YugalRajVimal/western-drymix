@@ -31,7 +31,7 @@ export function Offerings() {
           viewport={{ once: true }}
           className="max-w-3xl"
         >
-          <h2 className="text-4xl md:text-5xl font-semibold">
+          <h2 className="text-4xl md:text-5xl font-semibold font-serif">
             Innovating for a Better Future
           </h2>
           <p className="mt-4 text-gray-600">
@@ -51,7 +51,7 @@ export function Offerings() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-4xl md:text-5xl font-semibold mt-16"
+          className="text-4xl md:text-5xl font-semibold font-serif mt-16"
         >
           Our Solutions & Capabilities
         </motion.h3>
@@ -81,7 +81,7 @@ export function Offerings() {
 
               {/* Content */}
               <div className="absolute bottom-0 p-6 text-white">
-                <h4 className="text-2xl font-semibold">
+                <h4 className="text-2xl font-semibold font-serif">
                   {item.title}
                 </h4>
                 <p className="text-sm text-white/80 mt-2 max-w-sm">

@@ -16,7 +16,7 @@ export function Stats() {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-4xl md:text-5xl font-semibold"
+          className="text-4xl md:text-5xl font-semibold font-serif"
         >
           Key Facts & Figures
         </motion.h2>
@@ -27,7 +27,7 @@ export function Stats() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
           viewport={{ once: true }}
-          className="bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-3xl p-10 grid grid-cols-2 md:grid-cols-4 gap-8 text-center"
+          className="bg-[#0393da] text-white rounded-3xl p-10 grid grid-cols-2 md:grid-cols-2 gap-8 text-center"
         >
           {stats.map((item, i) => (
             <div key={i}>

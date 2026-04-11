@@ -5,7 +5,7 @@ export function WesternDrymixDetails() {
   return (
     <section className="py-20">
       <div className="max-w-6xl mx-auto px-6">
-        <h2 className="text-4xl md:text-5xl font-semibold mb-6">
+        <h2 className="text-4xl md:text-5xl font-semibold mb-6 text-[#0393da] font-serif">
           WESTERN DRYMIX
         </h2>
 
@@ -31,12 +31,12 @@ export function WesternDrymixDetails() {
         {/* Bottom Stats */}
         <div className="grid md:grid-cols-3 gap-10 mt-16 text-center">
           <div>
-            <FiClock className="mx-auto text-4xl text-green-500" />
+            <FiClock className="mx-auto text-4xl text-[#0393da]" />
             <p className="mt-4 font-medium">Founded In 2015</p>
           </div>
 
           <div>
-            <FaFlask className="mx-auto text-4xl text-green-500" />
+            <FaFlask className="mx-auto text-4xl text-[#0393da]" />
             <p className="mt-4 font-medium">State-of-the-Art R&D</p>
             <p className="text-sm text-gray-600 mt-1">
               Innovation & tailored solutions for diverse needs
@@ -44,7 +44,7 @@ export function WesternDrymixDetails() {
           </div>
 
           <div>
-            <FaIndustry className="mx-auto text-4xl text-green-500" />
+            <FaIndustry className="mx-auto text-4xl text-[#0393da]" />
             <p className="mt-4 font-medium">Modern Production Facilities</p>
             <p className="text-sm text-gray-600 mt-1">
               Ensuring quality, sustainability, and efficiency

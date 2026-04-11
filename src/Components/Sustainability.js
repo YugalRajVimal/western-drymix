@@ -25,7 +25,7 @@ export function Sustainability() {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl md:text-5xl font-semibold">
+          <h2 className="text-4xl md:text-5xl font-semibold font-serif">
             Solutions That Stick, Strengthen & Inspire
           </h2>
           <p className="mt-4 text-gray-600 max-w-lg">

@@ -7,6 +7,10 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const location = useLocation();
 
+  // Theme colors
+  const gold = "#fdca00";
+  const blue = "#0393da";
+
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
@@ -43,53 +47,73 @@ export default function Navbar() {
         to="/"
         className={`${
           isHome
-            ? "text-green-500 border-b-2 border-green-500 pb-1 md:pb-0 md:border-b-0"
+            ? `text-[${gold}] border-b-2 border-[${gold}] pb-1 md:pb-0 md:border-b-0`
             : scrolled
             ? "text-black"
             : "text-white"
         }`}
+        style={
+          isHome
+            ? { color: gold, borderBottomColor: gold }
+            : undefined
+        }
         onClick={handleLinkClick}
       >
-        Home
+        <span className="font-serif">Home</span>
       </Link>
       <Link
         to="/about"
-        className={`hover:text-green-500 ${
+        className={`hover:text-[${gold}] ${
           isAbout
-            ? "text-green-500 border-b-2 border-green-500 pb-1 md:pb-0 md:border-b-0"
+            ? `text-[${gold}] border-b-2 border-[${gold}] pb-1 md:pb-0 md:border-b-0`
             : scrolled
             ? "text-black"
             : "text-white"
         }`}
+        style={
+          isAbout
+            ? { color: gold, borderBottomColor: gold }
+            : undefined
+        }
         onClick={handleLinkClick}
       >
-        About Us
+        <span className="font-serif">About Us</span>
       </Link>
       <Link
         to="/products"
-        className={`hover:text-green-500 ${
+        className={`hover:text-[${gold}] ${
           isProducts
-            ? "text-green-500 border-b-2 border-green-500 pb-1 md:pb-0 md:border-b-0"
+            ? `text-[${gold}] border-b-2 border-[${gold}] pb-1 md:pb-0 md:border-b-0`
             : scrolled
             ? "text-black"
             : "text-white"
         }`}
+        style={
+          isProducts
+            ? { color: gold, borderBottomColor: gold }
+            : undefined
+        }
         onClick={handleLinkClick}
       >
-        Products
+        <span className="font-serif">Products</span>
       </Link>
       <Link
         to="/contact"
-        className={`hover:text-green-500 ${
+        className={`hover:text-[${gold}] ${
           isContact
-            ? "text-green-500 border-b-2 border-green-500 pb-1 md:pb-0 md:border-b-0"
+            ? `text-[${gold}] border-b-2 border-[${gold}] pb-1 md:pb-0 md:border-b-0`
             : scrolled
             ? "text-black"
             : "text-white"
         }`}
+        style={
+          isContact
+            ? { color: gold, borderBottomColor: gold }
+            : undefined
+        }
         onClick={handleLinkClick}
       >
-        Contact Us
+        <span className="font-serif">Contact Us</span>
       </Link>
     </>
   );
@@ -105,15 +129,19 @@ export default function Navbar() {
         <Link to="/" className="flex items-center gap-2" onClick={handleLinkClick}>
           <img
             src="/logo.png"
-            alt="chryso logo"
+            alt="Western Drymix logo"
             className="w-16 h-16 object-contain rounded-md bg-white"
           />
           <div className="flex flex-col leading-tight">
-            <span className={`font-bold text-xl ${scrolled ? "text-black" : "text-white"}`}>Western Drymix</span>
+            <span
+              className={`font-bold text-xl font-serif`}
+              style={{ color: scrolled ? blue : gold }}
+            >
+              Western Drymix
+            </span>
             <span className={`text-xs ${scrolled ? "text-gray-500" : "text-gray-100/70"}`}></span>
           </div>
         </Link>
-  
 
         {/* Nav Links Desktop */}
         <nav className="hidden md:flex items-center gap-8 font-medium">
@@ -124,14 +152,23 @@ export default function Navbar() {
         <div className="flex items-center gap-4">
           <Link
             to="/contact"
-            className="hidden md:flex items-center gap-2 bg-green-500 text-white px-5 py-2 rounded-full hover:bg-green-600 transition"
+            className="hidden md:flex items-center gap-2 px-5 py-2 rounded-full transition"
+            style={{
+              background: gold,
+              color: "#222",
+              fontWeight: 600,
+              boxShadow: `0 2px 8px 0 ${gold}22`,
+            }}
             onClick={handleLinkClick}
           >
-            Contact us <FiMail />
+            <span className="font-serif">Contact us</span> <FiMail />
           </Link>
           {/* Hamburger */}
           <button
-            className={`md:hidden text-2xl focus:outline-none ${scrolled ? "text-black" : "text-white"}`}
+            className={`md:hidden text-2xl focus:outline-none`}
+            style={{
+              color: scrolled ? blue : gold
+            }}
             onClick={() => setMenuOpen(!menuOpen)}
             aria-label={menuOpen ? "Close menu" : "Open menu"}
           >
@@ -145,10 +182,16 @@ export default function Navbar() {
         <div className="fixed inset-0 z-40 bg-black/50 md:hidden">
           <div className="fixed top-0 right-0 w-3/4 max-w-xs h-full bg-white shadow-lg py-8 px-8 flex flex-col gap-8 transition-all">
             <div className="flex justify-between items-center mb-2">
-              <span className="font-bold text-xl text-black">chryso</span>
+              <span
+                className="font-bold text-xl font-serif"
+                style={{ color: gold }}
+              >
+                Western Drymix
+              </span>
               <button
                 onClick={() => setMenuOpen(false)}
                 className="text-2xl"
+                style={{ color: blue }}
                 aria-label="Close menu"
               >
                 <FiX />
@@ -160,53 +203,79 @@ export default function Navbar() {
                 to="/"
                 className={`${
                   isHome
-                    ? "text-green-500 border-b-2 border-green-500 pb-1"
-                    : "hover:text-green-500 text-black"
+                    ? `border-b-2 pb-1`
+                    : "hover:opacity-80"
                 }`}
+                style={
+                  isHome
+                    ? { color: gold, borderBottom: `2px solid ${gold}` }
+                    : { color: blue }
+                }
                 onClick={handleLinkClick}
               >
-                Home
+                <span className="font-serif">Home</span>
               </Link>
               <Link
                 to="/about"
                 className={`${
                   isAbout
-                    ? "text-green-500 border-b-2 border-green-500 pb-1"
-                    : "hover:text-green-500 text-black"
+                    ? `border-b-2 pb-1`
+                    : "hover:opacity-80"
                 }`}
+                style={
+                  isAbout
+                    ? { color: gold, borderBottom: `2px solid ${gold}` }
+                    : { color: blue }
+                }
                 onClick={handleLinkClick}
               >
-                About Us
+                <span className="font-serif">About Us</span>
               </Link>
               <Link
                 to="/products"
                 className={`${
                   isProducts
-                    ? "text-green-500 border-b-2 border-green-500 pb-1"
-                    : "hover:text-green-500 text-black"
+                    ? `border-b-2 pb-1`
+                    : "hover:opacity-80"
                 }`}
+                style={
+                  isProducts
+                    ? { color: gold, borderBottom: `2px solid ${gold}` }
+                    : { color: blue }
+                }
                 onClick={handleLinkClick}
               >
-                Products
+                <span className="font-serif">Products</span>
               </Link>
               <Link
                 to="/contact"
                 className={`${
                   isContact
-                    ? "text-green-500 border-b-2 border-green-500 pb-1"
-                    : "hover:text-green-500 text-black"
+                    ? `border-b-2 pb-1`
+                    : "hover:opacity-80"
                 }`}
+                style={
+                  isContact
+                    ? { color: gold, borderBottom: `2px solid ${gold}` }
+                    : { color: blue }
+                }
                 onClick={handleLinkClick}
               >
-                Contact Us
+                <span className="font-serif">Contact Us</span>
               </Link>
             </nav>
             <Link
               to="/contact"
-              className="flex items-center gap-2 bg-green-500 text-white px-5 py-2 rounded-full hover:bg-green-600 transition mt-6 w-fit"
+              className="flex items-center gap-2 px-5 py-2 rounded-full transition mt-6 w-fit"
+              style={{
+                background: gold,
+                color: "#222",
+                fontWeight: 600,
+                boxShadow: `0 2px 8px 0 ${gold}22`,
+              }}
               onClick={handleLinkClick}
             >
-              Contact us <FiMail />
+              <span className="font-serif">Contact us</span> <FiMail />
             </Link>
           </div>
         </div>

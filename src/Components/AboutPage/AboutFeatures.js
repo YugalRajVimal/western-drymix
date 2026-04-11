@@ -37,6 +37,8 @@ const features = [
   },
 ];
 
+const BLUE = "#0393da";
+
 export function AboutFeatures() {
   return (
     <section className="py-16 ">
@@ -53,9 +55,13 @@ export function AboutFeatures() {
               src={item.img}
               alt={item.title}
               className="rounded-2xl h-[260px] w-full object-cover"
+              style={{
+                border: `3px solid ${BLUE}`,
+                boxSizing: "border-box",
+              }}
             />
 
-            <h3 className="mt-5 text-xl font-semibold">
+            <h3 className="mt-5 text-xl font-semibold font-serif">
               {item.title}
             </h3>
 
@@ -73,4 +79,3 @@ export function AboutFeatures() {
     </section>
   );
 }
-
